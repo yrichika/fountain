@@ -34,14 +34,18 @@ Scala >= 2.12.x
 
 ---
 
-## Install
+## How to Install
 
-In Progress...
+Add the line below in `build.sbt`.
+
+```scala
+libraryDependencies += "io.github.yrichika" %% "fountain" % "0.1.0"
+```
 
 
 ---
 
-## How to use
+## How to Use
 
 Simply use `EachLineFromFile.run()` method to start a streaming server.
 This will wait for Spark Streaming socket to connect.
